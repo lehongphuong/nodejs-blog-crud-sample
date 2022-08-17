@@ -9,7 +9,7 @@ const expressSanitizer = require('express-sanitizer')
 const app = express();
 
 //CONECTING DB// APP CONFI
-mongoose.connect('mongodb+srv://Khoa21donga:Khoa21dongaKhoa21dongaKhoa21donga@cluster0.o9ivn6p.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://Khoa21donga:Khoa21dongaKhoa21dongaKhoa21donga@cluster0.o9ivn6p.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true, 
     useCreateIndex: true,
     useFindAndModify: false
